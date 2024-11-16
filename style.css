@@ -355,6 +355,7 @@ header,
 
 #features {
   position: relative;
+  overflow-x: hidden;
 }
 
 #features .row__narrow {
@@ -432,6 +433,10 @@ header,
 }
 
 /* QUALITY */
+
+#quality {
+  overflow-x: hidden;
+}
 
 #quality .btn {
   margin-top: 32px;
@@ -1592,7 +1597,6 @@ footer .row {
 
   main {
     margin-bottom: 80px;
-    overflow-x: hidden;
   }
 
   .footer__column {
