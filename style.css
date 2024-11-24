@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Inter", sans-serif;
 }
 
 html {
@@ -355,7 +355,6 @@ header,
 
 #features {
   position: relative;
-  overflow-x: hidden;
 }
 
 #features .row__narrow {
@@ -433,10 +432,6 @@ header,
 }
 
 /* QUALITY */
-
-#quality {
-  overflow-x: hidden;
-}
 
 #quality .btn {
   margin-top: 32px;
@@ -1357,6 +1352,13 @@ footer .row {
 }
 
 @media (max-width: 768px) {
+  #features {
+    overflow-x: hidden;
+  }
+
+  #quality {
+    overflow-x: hidden;
+  }
   .features {
     justify-content: center;
   }
